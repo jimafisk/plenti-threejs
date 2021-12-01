@@ -9,7 +9,6 @@
   <title>{ title }</title>
 
   <base href="{ env.local ? '/' : env.baseurl }">
-  <script type="module" src="/assets/bundle.js"></script>
   <script type="module" src="spa/ejected/main.js"></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
