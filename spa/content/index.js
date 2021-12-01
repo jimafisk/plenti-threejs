@@ -29,7 +29,7 @@ import Grid from '../components/grid.js';
 import Uses from '../components/source.js';
 import Pager from '../components/pager.js';
 import { onMount } from '../web_modules/svelte/index.mjs';
-import * as THREE from "three";
+import * as THREE from '../web_modules/three/build/three.module.js';
 
 function get_each_context(ctx, list, i) {
 	const child_ctx = ctx.slice();
