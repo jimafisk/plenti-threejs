@@ -25,7 +25,7 @@
   };
 
   const resize = () => {
-    renderer.setSize(window.innerWidth, window.innerHeight)
+    renderer.setSize(window.innerWidth * .80, window.innerHeight)
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
   };
@@ -35,6 +35,7 @@
     resize();
     animate();
   }
+  window.addEventListener('resize', resize);
 
     createScene(el)
   });
